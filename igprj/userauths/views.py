@@ -74,7 +74,7 @@ def editProfile(request):
     context = {
         'form':form,
     }
-    return render(request, 'editprofile.html', context)
+    return render(request, 'edit-profile.html', context)
 
 def follow(request, username, option):
     user = request.user
